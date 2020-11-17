@@ -1,0 +1,87 @@
+@font-face {
+  font-family: Roboto-Thin;
+  src: url("./fonts/Roboto-Thin.ttf");
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("./fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url("./fonts/Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: Roboto-Light;
+  src: url("./fonts/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url("./fonts/Roboto-Medium.ttf");
+}
+
+body,
+html {
+  margin: 0;
+  font-family: Roboto-Light;
+  width: 100%;
+}
+
+header {
+  box-shadow: none !important;
+  background-color: #383e56 !important;
+  color: #ebecf1 !important;
+}
+
+.drawer-permanent > div:nth-child(1) {
+  width: 200px;
+  margin-top: 64px;
+}
+
+.drawer-temporary > div:nth-child(3) {
+  width: 200px;
+}
+
+.drawer-permanent,
+.drawer-temporary {
+  a {
+    text-decoration: none;
+    p {
+      font-size: 14px;
+      font-family: Roboto-Medium;
+      color: #42535a;
+    }
+  }
+
+  svg {
+    max-height: 22px;
+    color: #42535a;
+    margin-right: 4px;
+  }
+  .active {
+    p,
+    svg {
+      color: #4f8a8b;
+    }
+  }
+}
+
+.u_wrapper {
+  .u_au_button {
+    background-color: #4f8a8b !important;
+    color: #ebecf1 !important;
+  }
+}
+.react-tel-input .form-control:focus {
+  border-color: #3f51b5 !important;
+}
+
+.right-pane {
+  margin-left: 200px;
+  margin-top: 64px;
+}
+
+@media screen and (max-width: 599px) {
+  .right-pane {
+    margin-left: 0px;
+  }
+}

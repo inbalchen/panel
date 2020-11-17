@@ -1,0 +1,10 @@
+{
+    "first_name": "Admin",
+    "last_name": "admin",
+    "phone_number": "+506 111 111 111",
+    "address": {
+        "country": "Costa Rica",
+        "city": "San Jose"
+    },
+    "email": "eve.holt@reqres.in"
+}
